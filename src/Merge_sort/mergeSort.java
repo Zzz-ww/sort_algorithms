@@ -1,11 +1,11 @@
 package Merge_sort;
 
 public class mergeSort {
-    // Merges two subarrays of arr[].
+    // Merges two sub_arrays of arr[].
     // First subarray is arr[l..m]
     // Second subarray is arr[m+1..r]
     public void merge(int arr[], int l, int m, int r) {
-        // Find sizes of two subarrays to be merged
+        // Find sizes of two sub_arrays to be merged
         int n1 = m - l + 1;
         int n2 = r - m;
 
@@ -27,7 +27,7 @@ public class mergeSort {
         // Initial index of left and right array
         int i = 0, j = 0;
 
-        // Initial index of merged subarry array
+        // Initial index of merged sub_arry array
         int k = l; // k是合并后的数组的当前位置
         while (i < n1 && j < n2) {
 
